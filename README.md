@@ -16,3 +16,24 @@ An AI-based fraud detection system that predicts suspicious transactions using m
 - Streamlit
 - Joblib
 - Matplotlib
+
+## Project Structure
+```bash
+fraud-detection-ai/
+│
+├── app.py
+├── train_model.py
+├── preprocess.py
+├── utils.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── data/
+│   └── fraud_data.csv
+```
+```bash
+pip install -r requirements.txt
+python train_model.py
+streamlit run app.py
+```
